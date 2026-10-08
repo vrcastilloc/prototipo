@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crear cuenta</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="pagina-centrada">
+  <div class="tarjeta">
+    <h1>Crear cuenta</h1>
+    <form action="login.html" method="get" class="formulario">
+      <label for="usuario">Usuario</label>
+      <input id="usuario" name="usuario" type="text" required minlength="3">
+
+      <label for="correo">Correo</label>
+      <input id="correo" name="correo" type="email" required>
+
+      <label for="clave">Contraseña (mínimo 6 caracteres)</label>
+      <input id="clave" name="clave" type="password" required minlength="6">
+
+      <button type="submit" class="btn">Registrarme</button>
+    </form>
+    <p class="pie">¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+  </div>
+</body>
+</html>
